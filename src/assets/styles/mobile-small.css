@@ -1,0 +1,102 @@
+@media (min-width: 0px) and (max-width: 370px) {
+  .container {
+    max-width: 320px;
+    padding: 0 10px;
+  }
+
+  .logo {
+    width: 105px;
+    font-size: 24px;
+  }
+
+  .title {
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  /* HEADER */
+
+  .main-header__wrapper {
+    height: 100px;
+  }
+
+  /* INTRO */
+
+  .intro {
+    padding-top: 120px;
+  }
+
+  .intro__title  {
+    font-size: 37px;
+    line-height: 50px;
+  }
+
+  .intro__subtitle {
+    max-width: 280px;
+  }
+
+  .intro__image {
+    left: -25px;
+
+    width: 350px;
+    height: 350px;
+  }
+
+  .intro__image-wrapper::after {
+    top: 100px;
+    left: 35px;
+
+    width: 200px;
+    height: 200px;
+
+    transform: rotate(22deg);
+  }
+
+  /* OUR PLUSES */
+
+  .our-pluses {
+    padding-bottom: 140px;
+  }
+
+  .our-pluses__triangle {
+    bottom: 35px;
+  }
+
+  /* SERVICES */
+
+  .services {
+    padding-bottom: 180px;
+  }
+
+  .services__item {
+    margin-bottom: 100px;
+  }
+
+  .services__item_last {
+    margin-bottom: 0px;
+  }
+
+  /* PORTFOLIO */
+
+  .portfolio {
+    padding-bottom: 110px;
+  }
+
+  .portfolio__slider {
+    max-width: 100vw;
+  }
+
+  .portfolio-image-wrapper {
+    width: 290px;
+    height: 230px;
+  }
+
+  .portfolio__image {
+    width: 290px;
+    height: 230px;
+  }
+}
